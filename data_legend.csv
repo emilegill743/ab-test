@@ -1,0 +1,26 @@
+﻿columnName,description
+userId,unique identifier
+regTime,timestamp of when the user registered
+testVariant,test variant
+primaryAccount,True if the user registered without being invited to collaborate on an existing wedding
+regPage,page when user registered
+device,device used when registering
+app,whether or not the app was used (as opposed to mobile website)
+browser,
+browserVersion,
+screenHeight,
+screenWidth,
+authMethod,authentication method used when registering
+locationStep,whether the user saw/skipped/completed the location step on onboarding
+addedCity,"whether the user added city or county level information when adding location information (0: False, 1: True)"
+locationCountry,country added on the location step
+addedGuestCount,"whether the user added guest count estimate on onboarding (0: False, 1: True)"
+addedBudget,"whether the user added budget estimate on onboarding (0: False, 1: True)"
+invitedCollaborator,whether the user invited a collaborator to the profile during onboarding
+addedNames,whether the user entered the names of the couple during onboarding
+finOnb,"whether the user finished onboarding (0: False, 1: True)"
+searchCTA,"whether the user used the search CTA on the final screen of onboarding(0: False, 1: True)"
+venEnq,number of enquiries sent to venues by the user in their first week
+venSearch,number of searches for venues performed by the user in their first week
+venViews,number of venue profile views performed by the user in their first week
+sessions,number of sessions the user had in their first week
